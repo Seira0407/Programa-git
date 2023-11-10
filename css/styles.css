@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+}
+header> * {
+   /*  margin: none; */
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(253, 223, 219); */
+}
+.logo {
+    float: left;
+    height: 65px;
+    width: 259px;
+    margin-top: 10px;
+}
+h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+/* .fa-bars {
+    height: 10px;
+    width: 10px;
+} */
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {max-width: 200px;
+    /* margin: left; */
+    font-size: medium;
+    /* margin-top: 10px; */
+    float: right;
+    margin-right: 12px;}
+
+.fa-solid {
+    margin: 20px;
+}
